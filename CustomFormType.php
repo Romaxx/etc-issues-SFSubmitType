@@ -30,7 +30,8 @@ class CustomFormType extends AbstractType
                     switch ($form->getClickedButton()->getName()){
                         case 'searchbutton':
                            
-                            //here the problem, when searchbutton SubmitType is clicked from sub Custom2FormType Child, this trigger occur
+                            //here the problem, when searchbutton SubmitType is clicked from sub Custom2FormType Child, this trigger occurs
+                            //but self searchbutton hasnt be pushed
                             break;
                     }
                 }
