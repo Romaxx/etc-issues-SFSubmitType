@@ -15,7 +15,7 @@ class CustomFormType extends AbstractType
             'label'=>'Search'
         ));
 
-        $builder->add('sub',Custom2FormType, array(
+        $builder->add('sub',Custom2FormType::class, array(
             'label' => 'subsearch',
         ));
 
